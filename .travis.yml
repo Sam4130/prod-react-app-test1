@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t sam4130/prod-react-app-test1 -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true sam4130/prod-react-app-test1 npm run test -- --coverage
