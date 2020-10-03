@@ -6,7 +6,7 @@ before_install:
   - docker build -t sam4130/prod-react-app-test1 -f Dockerfile.dev .
 #runs the designated tests for app and sends logs to travis ci
 script:
-  - docker run -e CI=true sam4130/prod-react-app-test1 npm run test -- --coverage
+  - docker run -e CI=true sam4130/prod-react-app-test1 npm run test
 deploy:
   provider: elasticbeanstalk
   region: us-east-1
@@ -17,5 +17,4 @@ deploy:
   on:
     branch: master
   access_key_id: $AWS_Access_Key
-  secret_access_key:
-    secure: " $AWS_AK_SECRET"
+  secret_access_key: $AWS_AK_SECRET
