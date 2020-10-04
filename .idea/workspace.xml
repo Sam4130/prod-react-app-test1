@@ -2,9 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bf0b7e2-bf75-4ca2-8405-be28774bc15b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/agent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/bath-solid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/bed-solid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/contact-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/envelope-regular.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/facebook-square-brands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/ft-homes1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/ft-homes2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/ft-homes3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home-solid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/homes1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/homes2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/homes3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/homes4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/homes5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/instagram-brands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/intro-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/intro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/linkedin-in-brands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/map-marker-alt-solid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/phone-solid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/purchase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/sell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/youtube-brands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/social-links/Footer Adornment.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/social-links/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/social-links/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/social-links/twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compoents/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compoents/Pages/LandingPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compoents/UI/Footer/Footer2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compoents/UI/Header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compoents/UI/Header/header-Fade.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compoents/UI/Maps/GoogleMaps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compoents/UI/Sections/SectionImages/SectionImages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compoents/UI/Sections/SectionRelator/SectionRealtor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compoents/UI/Theme/Theme.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601752401634</updated>
       <workItem from="1601752402956" duration="6173000" />
-      <workItem from="1601772421012" duration="2465000" />
+      <workItem from="1601772421012" duration="3534000" />
     </task>
     <servers />
   </component>
