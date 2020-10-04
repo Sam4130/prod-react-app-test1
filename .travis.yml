@@ -1,20 +1,23 @@
 sudo: required
+language: generic
+
 services:
   - docker
-# standard notation is to use docker-login usr/name-of-app
+
 before_install:
-  - docker build -t sam4130/prod-react-app-test1 -f Dockerfile.dev .
-#runs the designated tests for app and sends logs to travis ci
+  - docker build -t stephengrider/docker-react -f Dockerfile.dev .
+
 script:
-  - docker run -e CI=true sam4130/prod-react-app-test1 npm run test
+  - docker run -e CI=true stephengrider/docker-react npm run test
+
 deploy:
   provider: elasticbeanstalk
-  region: us-east-1
-  app: "docker"
-  env:  "ProdReactAppTestDocker"
-  bucket_name: "elasticbeanstalk-us-east-1-126690741413"
-  bucket_path: "docker"
+  region: 'us-east-1'
+  app: 'prod-react-app-test-docker'
+  env: 'ProdReactAppTestDocker-env'
+  bucket_name: 'elasticbeanstalk-us-east-1-126690741413'
+  bucket_path: 'docker'
   on:
     branch: master
-  access_key_id: $AWS_Access_Key
-  secret_access_key: $AWS_AK_SECRET
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
